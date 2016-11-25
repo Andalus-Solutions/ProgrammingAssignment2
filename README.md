@@ -36,25 +36,25 @@ cacheSolve(myMatrix)
 
 If run correctly, the above commands will produce:
 
-squareMatrix <- matrix(c(1/2, -1/4, -1, 3/4), nrow = 2, ncol = 2)
+   squareMatrix <- matrix(c(1/2, -1/4, -1, 3/4), nrow = 2, ncol = 2)
 
-myMatrix <- makeCacheMatrix(squareMatrix) 
+   myMatrix <- makeCacheMatrix(squareMatrix) 
 
-cacheSolve(myMatrix)
+   cacheSolve(myMatrix)
 
-Generating inverse
+   Generating inverse
 
-     [,1] [,2]
-[1,]    6    8
-[2,]    2    4
+>      [,1] [,2]
+> [1,]    6    8
+> [2,]    2    4
 
-> cacheSolve(myMatrix)
+   cacheSolve(myMatrix)
 
 Retrieving cached inverse
 
-     [,1] [,2]
-[1,]    6    8
-[2,]    2    4
+>      [,1] [,2]
+> [1,]    6    8
+> [2,]    2    4
 
 # Alternative formulation
 

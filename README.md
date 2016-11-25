@@ -22,10 +22,14 @@ invertible.
 
 # Call commands (with example square matrix)
 
-setwd(file.path(getwd(), "Coursera", "R", "ProgrammingAssignment2-master")) 
+setwd(file.path(getwd(), "Coursera", "R", "ProgrammingAssignment2-master"))
+ 
 source("cachematrix.R")
+
 squareMatrix <- matrix(c(1/2, -1/4, -1, 3/4), nrow = 2, ncol = 2)
+
 myMatrix <- makeCacheMatrix(squareMatrix) 
+
 cacheSolve(myMatrix)
 
 # Observed results

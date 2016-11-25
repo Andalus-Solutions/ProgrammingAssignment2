@@ -36,11 +36,11 @@ cacheSolve(myMatrix)
 
 If run correctly, the above commands will produce:
 
-> squareMatrix <- matrix(c(1/2, -1/4, -1, 3/4), nrow = 2, ncol = 2)
+squareMatrix <- matrix(c(1/2, -1/4, -1, 3/4), nrow = 2, ncol = 2)
 
-> myMatrix <- makeCacheMatrix(squareMatrix) 
+myMatrix <- makeCacheMatrix(squareMatrix) 
 
-> cacheSolve(myMatrix)
+cacheSolve(myMatrix)
 
 Generating inverse
 
